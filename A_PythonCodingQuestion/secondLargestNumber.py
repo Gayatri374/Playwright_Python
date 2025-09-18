@@ -26,5 +26,8 @@ print(sec([1,2,3,4,5,6,7,8,8,9]))
 
 
 
-
+def uu(n):
+    uniq=list(set(n))
+    uniq.sort()
+    return uniq[-3]
 

@@ -12,3 +12,33 @@ for n in nums:
         min_num=n
 
 print(max_num,min_num)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lis=[11,3,66,86,97]
+
+max_lis=lis[0]
+min_lis=lis[1]
+
+
+for n in lis:
+    if n>max_lis:
+        max_lis=n
+    if n<min_lis:
+        min_lis=n
+
+print(max_lis,min_lis)

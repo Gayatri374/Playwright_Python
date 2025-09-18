@@ -25,3 +25,12 @@ text = "epam python interview python epam test"
 words = text.split()
 freq = dict(Counter(words))
 print(freq)  # Counter({'epam': 2, 'python': 2, 'interview': 1, 'test': 1})
+
+
+
+com='Estuate'
+
+def kit(l):
+    return dict(Counter(l))
+
+print(kit(com))
